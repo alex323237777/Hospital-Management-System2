@@ -1,0 +1,266 @@
+body {
+    background-color: rgba(26, 200, 127, 0.475);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px; 
+    flex-direction: column; 
+    align-items: center; 
+    
+}
+
+.content-box {
+    background-color: #ffffff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    overflow: auto; 
+}
+
+.user-button {
+    padding: 20px 40px; 
+    margin: 10px; 
+    font-size: 18px;
+    background-color: #2025b3; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.user-button:hover {
+    background-color: #228B22; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 300px; 
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.login-button {
+    padding: 15px 30px; 
+    font-size: 18px;
+    background-color: #2025b3;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #228B22;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dashboard-button {
+    padding: 15px 30px; 
+    font-size: 18px;
+    background-color: #7d0894;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-button:hover {
+    background-color: #8e45b6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.dashboard-title {
+    background-color: #25c8e5; 
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-top: 50px;
+
+}
+
+.back-to-home-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    cursor: pointer; 
+  }
+  
+  .back-to-home-button:hover {
+    background-color: #2980b9; 
+  }
+
+  .search-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.record-box {
+    background-color: #86e3d9; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.record-box:hover {
+    background-color: #f0f0f0;
+}
+
+.diagnose-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.diagnose-form p {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.update-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-form p {
+    margin-bottom: 15px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.dashboard-option {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-option:hover {
+    background-color: #218838;
+}
+
+.tasks-container {
+    margin-top: 20px;
+}
+
+.tasks-table {
+    overflow-x: auto;
+}
+
+.tasks-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tasks-table th, .tasks-table td {
+    padding: 10px;
+    border: 1px solid #0b0202;
+}
+
+.tasks-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
